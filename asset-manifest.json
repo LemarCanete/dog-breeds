@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/LemarCanete/dog-breeds.git/static/css/main.7c65cb4c.chunk.css",
-    "main.js": "/LemarCanete/dog-breeds.git/static/js/main.59856737.chunk.js",
-    "main.js.map": "/LemarCanete/dog-breeds.git/static/js/main.59856737.chunk.js.map",
-    "runtime-main.js": "/LemarCanete/dog-breeds.git/static/js/runtime-main.cd89fe69.js",
-    "runtime-main.js.map": "/LemarCanete/dog-breeds.git/static/js/runtime-main.cd89fe69.js.map",
-    "static/js/2.d6b1a3fc.chunk.js": "/LemarCanete/dog-breeds.git/static/js/2.d6b1a3fc.chunk.js",
-    "static/js/2.d6b1a3fc.chunk.js.map": "/LemarCanete/dog-breeds.git/static/js/2.d6b1a3fc.chunk.js.map",
-    "index.html": "/LemarCanete/dog-breeds.git/index.html",
-    "static/css/main.7c65cb4c.chunk.css.map": "/LemarCanete/dog-breeds.git/static/css/main.7c65cb4c.chunk.css.map",
-    "static/js/2.d6b1a3fc.chunk.js.LICENSE.txt": "/LemarCanete/dog-breeds.git/static/js/2.d6b1a3fc.chunk.js.LICENSE.txt"
+    "main.css": "/dog-breeds/static/css/main.7c65cb4c.chunk.css",
+    "main.js": "/dog-breeds/static/js/main.59856737.chunk.js",
+    "main.js.map": "/dog-breeds/static/js/main.59856737.chunk.js.map",
+    "runtime-main.js": "/dog-breeds/static/js/runtime-main.9164707d.js",
+    "runtime-main.js.map": "/dog-breeds/static/js/runtime-main.9164707d.js.map",
+    "static/js/2.d6b1a3fc.chunk.js": "/dog-breeds/static/js/2.d6b1a3fc.chunk.js",
+    "static/js/2.d6b1a3fc.chunk.js.map": "/dog-breeds/static/js/2.d6b1a3fc.chunk.js.map",
+    "index.html": "/dog-breeds/index.html",
+    "static/css/main.7c65cb4c.chunk.css.map": "/dog-breeds/static/css/main.7c65cb4c.chunk.css.map",
+    "static/js/2.d6b1a3fc.chunk.js.LICENSE.txt": "/dog-breeds/static/js/2.d6b1a3fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd89fe69.js",
+    "static/js/runtime-main.9164707d.js",
     "static/js/2.d6b1a3fc.chunk.js",
     "static/css/main.7c65cb4c.chunk.css",
     "static/js/main.59856737.chunk.js"
