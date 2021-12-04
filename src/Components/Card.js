@@ -4,9 +4,9 @@ import { Accordion } from "react-bootstrap";
 
 const Card = (props) => {
     return ( 
-        <section className="card-item">
+        <section className="card-item" style={props.background}>
             <img src={props.imageUrl} alt={props.id} className="card-img"/>
-            <div className="card-info ">
+            <div className="card-info " style={props.color}>
                 <h3 className="card-title text-center mb-0 mt-4">{props.title}</h3>
                 <h5 className="text-center sub-title">({props.sub})</h5>
                 <p className="text-center location"><ImLocation className="location-icon"/>{props.location}</p> 

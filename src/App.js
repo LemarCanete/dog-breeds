@@ -9,13 +9,11 @@ import Contact from './Components/Contact'
 import Blog from './Components/Blog'
 import About from './Components/About'
 import blogData from './Data/blogData'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import {ImSwitch} from 'react-icons/im'
 
 function App() {
-  const dataElements = data.map(item=>{
-    return <Card {...item}/>
-  })
+  
   const [darkMode, setDarkMode] = React.useState(false)
 
   function handleClick(){
@@ -30,6 +28,9 @@ function App() {
   const blogDataElements = blogData.map(blog=>{
     return <Blog color={color} babckground={backgroundColor} handleClick={handleClick} {...blog}/>
   })
+  const dataElements = data.map(item=>{
+    return <Card color={color} background={backgroundColor} handleClick={handleClick} {...item}/>
+  })
   return (
     <Router>
     <div className="App">
@@ -37,7 +38,7 @@ function App() {
         <Navbar  />
         <Routes>
         
-          <Route path={process.env.PUBLIC_URL + '/blog'} element={
+          <Route path={'/blog'} element={
             <div className="blog-section pb-5" style={backgroundColor}>
               <h1 className="display-1 my-5 fw-bolder" style={color}>Blogs 
                   <ImSwitch className="switch-icon" onClick={handleClick}/>
@@ -52,9 +53,9 @@ function App() {
                 {blogDataElements}
               </div>
           } />
-          <Route path={process.env.PUBLIC_URL + '/about'} element={<About />}/>
+          <Route path={'/about'} element={<About />}/>
         </Routes> 
-              <h1 className="text-center mt-5 display-5">Cute Dogs you can adopt!!</h1>
+              <h1 className="text-center mt-5 display-5">Cute Dogs you can adopt!! <ImSwitch className="switch-icon" onClick={handleClick}/></h1>
               <div className="card-section pb-5">
                 {dataElements}
               </div>
