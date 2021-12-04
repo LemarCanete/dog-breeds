@@ -8,7 +8,7 @@ const Reasons = () => {
     })
     return ( 
         <div>
-           <img src="wave.svg" alt="wave" className="wave"/>
+           <img src={process.env.PUBLIC_URL + "/wave.svg"} alt="wave" className="wave"/>
            <div className="reasons-section pb-5">
                 <h1 className="display-1 text-center p-5">Top Reasons to Adopt from an Animal Shelter</h1>
             <ol>
