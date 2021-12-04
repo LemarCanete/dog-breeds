@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/dog-breeds/static/css/main.7c65cb4c.chunk.css",
-    "main.js": "/dog-breeds/static/js/main.ce44d519.chunk.js",
-    "main.js.map": "/dog-breeds/static/js/main.ce44d519.chunk.js.map",
+    "main.js": "/dog-breeds/static/js/main.f02e95d2.chunk.js",
+    "main.js.map": "/dog-breeds/static/js/main.f02e95d2.chunk.js.map",
     "runtime-main.js": "/dog-breeds/static/js/runtime-main.9164707d.js",
     "runtime-main.js.map": "/dog-breeds/static/js/runtime-main.9164707d.js.map",
-    "static/js/2.480b5225.chunk.js": "/dog-breeds/static/js/2.480b5225.chunk.js",
-    "static/js/2.480b5225.chunk.js.map": "/dog-breeds/static/js/2.480b5225.chunk.js.map",
+    "static/js/2.6f16f1f8.chunk.js": "/dog-breeds/static/js/2.6f16f1f8.chunk.js",
+    "static/js/2.6f16f1f8.chunk.js.map": "/dog-breeds/static/js/2.6f16f1f8.chunk.js.map",
     "index.html": "/dog-breeds/index.html",
     "static/css/main.7c65cb4c.chunk.css.map": "/dog-breeds/static/css/main.7c65cb4c.chunk.css.map",
-    "static/js/2.480b5225.chunk.js.LICENSE.txt": "/dog-breeds/static/js/2.480b5225.chunk.js.LICENSE.txt"
+    "static/js/2.6f16f1f8.chunk.js.LICENSE.txt": "/dog-breeds/static/js/2.6f16f1f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9164707d.js",
-    "static/js/2.480b5225.chunk.js",
+    "static/js/2.6f16f1f8.chunk.js",
     "static/css/main.7c65cb4c.chunk.css",
-    "static/js/main.ce44d519.chunk.js"
+    "static/js/main.f02e95d2.chunk.js"
   ]
 }
