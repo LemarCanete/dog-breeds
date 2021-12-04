@@ -36,7 +36,8 @@ function App() {
         <Carousels/>
         <Navbar  />
         <Routes>
-          <Route path="/blog" element={
+        
+          <Route path={process.env.PUBLIC_URL + '/blog'} element={
             <div className="blog-section pb-5" style={backgroundColor}>
               <h1 className="display-1 my-5 fw-bolder" style={color}>Blogs 
                   <ImSwitch className="switch-icon" onClick={handleClick}/>
