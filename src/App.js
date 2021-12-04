@@ -9,7 +9,7 @@ import Contact from './Components/Contact'
 import Blog from './Components/Blog'
 import About from './Components/About'
 import blogData from './Data/blogData'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import {ImSwitch} from 'react-icons/im'
 
 function App() {
