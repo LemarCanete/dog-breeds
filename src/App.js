@@ -52,7 +52,7 @@ function App() {
                 {blogDataElements}
               </div>
           } />
-          <Route path="/about" element={<About />}/>
+          <Route path={process.env.PUBLIC_URL + '/about'} element={<About />}/>
         </Routes> 
               <h1 className="text-center mt-5 display-5">Cute Dogs you can adopt!!</h1>
               <div className="card-section pb-5">
