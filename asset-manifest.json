@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dog-breeds/static/css/main.7c65cb4c.chunk.css",
-    "main.js": "/dog-breeds/static/js/main.7d74630a.chunk.js",
-    "main.js.map": "/dog-breeds/static/js/main.7d74630a.chunk.js.map",
+    "main.js": "/dog-breeds/static/js/main.ce44d519.chunk.js",
+    "main.js.map": "/dog-breeds/static/js/main.ce44d519.chunk.js.map",
     "runtime-main.js": "/dog-breeds/static/js/runtime-main.9164707d.js",
     "runtime-main.js.map": "/dog-breeds/static/js/runtime-main.9164707d.js.map",
     "static/js/2.480b5225.chunk.js": "/dog-breeds/static/js/2.480b5225.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9164707d.js",
     "static/js/2.480b5225.chunk.js",
     "static/css/main.7c65cb4c.chunk.css",
-    "static/js/main.7d74630a.chunk.js"
+    "static/js/main.ce44d519.chunk.js"
   ]
 }
